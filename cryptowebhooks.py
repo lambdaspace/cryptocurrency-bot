@@ -14,7 +14,8 @@ permdata_filename = "bitcointrackerdata"
 #wikileaks donation address for testing
 
 #add actual bitcoin wallet address for incoming donations here
-bitcoin_url = "https://blockchain.info/rawaddr/YOURADDRESSHERE"
+bitcoin_url = "https://blockchain.info/rawaddr/3Paj39gtwNvHWhApzwcQ7j6TKkd3sLJTmA"
+#lambdaspace bitcoin wallet
 response = urllib.urlopen(bitcoin_url)
 data = json.loads(response.read())
 
