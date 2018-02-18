@@ -48,7 +48,7 @@ for n in range(0,txdiff):
 			amount+=out["value"]
 			
 	if amount>0:
-		output+="@adrian New bitcoin donation on " + datetime+"\nAmount: " + str(amount*0.00001) + "mBTC. Thanks!\n\n"
+		output+="New bitcoin donation on " + datetime+"\nAmount: " + str(amount*0.00001) + "mBTC. Thanks!\n\n"
 
 #incoming webhooks for mattermost
 chaturl = 'https://chat.lambdaspace.gr/hooks/ADDWEBHOOKURL'
